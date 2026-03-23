@@ -1,61 +1,88 @@
-# 🩺 Multi-Disease Prediction System using Machine Learning
+# 🩺 AI-Powered Multi-Disease Prediction System
 
-🚀 **Live Demo:** 
-[![Live App](https://img.shields.io/badge/Streamlit-Live_App-red?logo=streamlit)](https://medical-risk-analyzer-yash.streamlit.app)
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10-blue?logo=python">
+  <img src="https://img.shields.io/badge/Streamlit-Web_App-red?logo=streamlit">
+  <img src="https://img.shields.io/badge/Machine%20Learning-Enabled-success">
+  <img src="https://img.shields.io/badge/Status-Live-brightgreen">
+</p>
 
-An AI-powered web application that predicts the risk of multiple diseases using trained machine learning models.
+---
+
+## 🌐 Live Demo
+
+<p align="center">
+  <a href="https://medical-risk-analyzer-yash.streamlit.app">
+    <img src="https://img.shields.io/badge/🚀%20Launch%20Live%20App-Click%20Here-blueviolet?style=for-the-badge">
+  </a>
+</p>
+
+> ⚠️ The app may take a few seconds to load due to free hosting.
+
+---
 
 ## 🚀 Project Overview
 
-This project is a web-based healthcare prediction platform built using Machine Learning and Streamlit.
+An **AI-powered healthcare web application** that predicts the risk of multiple diseases using machine learning models.
 
-The system allows users to:
-- Predict Diabetes Risk
-- Predict Heart Disease
-- Predict Liver Disease
-- Predict Kidney Disease
-- Predict Breast Cancer
+This system integrates multiple predictive models into a **single intelligent dashboard**, enabling users to analyze health risks quickly and efficiently.
 
-Each prediction is powered by trained machine learning models with proper preprocessing and feature selection.
+---
 
+## 🧠 Supported Predictions
+
+* 🩸 Diabetes Prediction
+* ❤️ Heart Disease Prediction
+* 🍺 Liver Disease Prediction
+* 🧬 Kidney Disease Prediction
+* 🎗 Breast Cancer Detection
+
+---
 
 ## 🧠 Machine Learning Models
 
 | Disease        | Model Used             | Accuracy |
-|---------------|-------------------------|----------|
-| Diabetes      | Support Vector Machine  | ~77%     |
-| Heart Disease | Random Forest           | ~85%     |
-| Liver Disease | Gradient Boosting       | ~87%     |
-| Kidney Disease| Random Forest           | 100%     |
-| Breast Cancer | Random Forest           | ~95%     |
+| -------------- | ---------------------- | -------- |
+| Diabetes       | Support Vector Machine | ~77%     |
+| Heart Disease  | Random Forest          | ~85%     |
+| Liver Disease  | Gradient Boosting      | ~87%     |
+| Kidney Disease | Random Forest          | 100%     |
+| Breast Cancer  | Random Forest          | ~95%     |
 
+---
+
+## ⚙️ Key Features
+
+* 🧠 Multi-disease prediction in a single platform
+* ⚡ Real-time predictions using trained ML models
+* 📊 Clean and interactive Streamlit UI
+* 🔍 Feature selection & preprocessing pipeline
+* 💾 Model persistence using Pickle
+* 🏗 Modular and scalable architecture
+* ☁️ Ready for cloud deployment
+
+---
 
 ## 🏗 System Architecture
 
-The application follows a modular machine learning pipeline architecture.
+```
+User Input (Streamlit UI)
+        │
+        ▼
+Data Preprocessing
+(Scaling + Feature Alignment)
+        │
+        ▼
+Machine Learning Model
+        │
+        ▼
+Prediction Output
+        │
+        ▼
+UI Display (Result)
+```
 
-### Architecture Layers
-
-1. **User Interface Layer**
-   - Built using Streamlit
-   - Collects user input
-   - Displays prediction results
-
-2. **Prediction Engine**
-   - Input preprocessing
-   - Feature alignment
-   - Scaling using StandardScaler
-   - Model prediction
-
-3. **Machine Learning Models**
-   - Disease-specific trained models
-   - Saved using pickle (.pkl files)
-
-4. **Model Storage Layer**
-   - Model files
-   - Scaler files
-   - Feature column files
-
+---
 
 ## 📂 Project Structure
 
@@ -71,87 +98,100 @@ Multi_Disease_Prediction_System/
 ├── train_breast_cancer_model.py
 │
 ├── datasets/
-│   ├── diabetes.csv
-│   ├── heart.csv
-│   ├── liver.csv
-│   ├── kidney.csv
-│
 ├── models/
-│   ├── diabetes_model.pkl
-│   ├── heart_model.pkl
-│   ├── liver_model.pkl
-│   ├── kidney_model.pkl
-│   ├── breast_cancer_model.pkl
 │
 ├── requirements.txt
 └── README.md
 ```
 
+---
+
 ## ⚙️ Installation & Setup
 
-### 1️⃣ Clone the Repository
+### Clone Repository
 
 ```bash
 git clone https://github.com/yashrajagawane/Multi-Disease-Prediction-System.git
 cd Multi-Disease-Prediction-System
 ```
 
-### 2️⃣ Create Virtual Environment
+### Create Virtual Environment
 
 ```bash
 python -m venv venv
 venv\Scripts\activate
 ```
 
-### 3️⃣ Install Dependencies
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Run the Application
+### Run Application
 
 ```bash
 streamlit run app.py
 ```
 
+---
 
 ## 🛠 Tech Stack
 
-### Programming Language
-- Python
+**Languages & Libraries**
 
-### Machine Learning
-- Scikit-learn
-- XGBoost
-- Pandas
-- NumPy
+* Python
+* NumPy, Pandas
 
-### Web Framework
-- Streamlit
+**Machine Learning**
 
-### Version Control
-- Git
-- GitHub
+* Scikit-learn
+* XGBoost
 
+**Frontend**
 
-## 💡 Key Features
+* Streamlit
 
-- Multi-disease prediction system in a single platform
-- Interactive and user-friendly Streamlit UI
-- Separate trained models for each disease
-- Feature scaling and preprocessing pipeline
-- Model persistence using Pickle (.pkl files)
-- Feature selection for optimized performance
-- Modular project structure
-- Ready for cloud deployment
+**Tools**
 
+* Git & GitHub
+
+---
+
+## 🎯 Use Cases
+
+* 🏥 Healthcare risk analysis
+* 🧪 Medical research support
+* 📊 Early disease detection systems
+* 🤖 AI-based clinical decision support
+
+---
+
+## 🔮 Future Enhancements
+
+* Deep Learning integration
+* API-based deployment (FastAPI)
+* User authentication system
+* Patient history tracking
+* Mobile-friendly UI
+
+---
 
 ## 👨‍💻 Author
 
-**Yashraj Agawane**  
-B.Tech Student | Machine Learning Enthusiast  
+**Yashraj Agawane**
+🎓 B.Tech Student | Machine Learning Enthusiast
 
-🔗 GitHub: https://github.com/yashrajagawane  
-📧 Email: agawaneyash865@gmail.com
+🔗 GitHub: https://github.com/yashrajagawane
+📧 Email: [agawaneyash865@gmail.com](mailto:agawaneyash865@gmail.com)
 
+---
+
+## ⭐ Support
+
+If you found this project helpful:
+
+👉 Give it a **star ⭐ on GitHub**
+👉 Share with others 🚀
+
+---
