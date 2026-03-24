@@ -187,10 +187,7 @@ streamlit run app.py
 
 ## ⭐ Support
 
-If you found this project helpful:
-
-👉 Give it a **star ⭐ on GitHub**
-👉 Share with others 🚀
+If you like this project, please give it a star ⭐ and share it with others.
 
 ---
 ## 🤝 Collaboration
