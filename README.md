@@ -169,11 +169,9 @@ streamlit run app.py
 
 ## 🔮 Future Enhancements
 
-* Deep Learning integration
 * API-based deployment (FastAPI)
 * User authentication system
 * Patient history tracking
-* Mobile-friendly UI
 
 ---
 
