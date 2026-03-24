@@ -177,11 +177,15 @@ streamlit run app.py
 
 ## 👨‍💻 Author
 
-**Yashraj Agawane**
-🎓 B.Tech Student | Machine Learning Enthusiast
+**Yashraj Agawane**  
+🎓 B.Tech Student | 💡 Machine Learning Enthusiast  
 
-🔗 GitHub: https://github.com/yashrajagawane
-📧 Email: [agawaneyash865@gmail.com](mailto:agawaneyash865@gmail.com)
+🔗 GitHub: https://github.com/yashrajagawane  
+📧 Email: agawaneyash865@gmail.com  
+
+---
+
+⭐ Passionate about building scalable backend systems, AI-driven applications, and solving real-world problems using Data Structures & Machine Learning.
 
 ---
 
