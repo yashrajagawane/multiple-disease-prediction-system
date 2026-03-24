@@ -193,3 +193,6 @@ If you found this project helpful:
 👉 Share with others 🚀
 
 ---
+## 🤝 Collaboration
+
+This project is open for collaboration. Feel free to contribute and improve the project.
