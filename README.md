@@ -194,6 +194,3 @@ streamlit run app.py
 If you like this project, please give it a star ⭐ and share it with others.
 
 ---
-## 🤝 Collaboration
-
-This project is open for collaboration. Feel free to contribute and improve the project.
