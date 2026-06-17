@@ -1,9 +1,6 @@
 <div align="center">
 
 # 🩺 **AI-Powered Multi-Disease Prediction System**
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=700&lines=AI-Powered+Healthcare+Risk+Analyzer;Predict+5+Diseases+with+Machine+Learning;Built+with+Python+%2B+Streamlit+%2B+Scikit-learn" alt="Typing SVG" />
-
 <br/>
 
 [![Launch App](https://img.shields.io/badge/🚀%20Live%20App-Open%20Dashboard-blueviolet?style=for-the-badge&logo=streamlit&logoColor=white)](https://medical-risk-analyzer-yash.streamlit.app)
