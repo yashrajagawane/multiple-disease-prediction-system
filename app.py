@@ -7,9 +7,6 @@ import random
 import string
 from datetime import datetime
 
-# ==============================
-# Page Configuration
-# ==============================
 st.set_page_config(
     page_title="MediAI — Disease Prediction Platform",
     layout="wide",
@@ -40,7 +37,6 @@ def load_models():
     return models
 
 m = load_models()
-
 # ==============================
 # Session State Init
 # ==============================
@@ -58,9 +54,11 @@ if "patient_gender" not in st.session_state:
 def gen_pred_id():
     return "MED-" + "".join(random.choices(string.ascii_uppercase + string.digits, k=6))
 
+
 # ==============================
 # Master CSS
 # ==============================
+
 st.markdown("""
 <style>
 /* ── Google Font ── */
@@ -158,6 +156,7 @@ html, body, [class*="css"] {
     border-color: var(--blue-400) !important;
     color: var(--white) !important;
 }
+
 
 /* ── Main background ── */
 .main { background: var(--gray-50) !important; }
